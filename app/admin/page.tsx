@@ -8,7 +8,7 @@ export default async function Admin() {
   async function handleSwitch(id: number) {
     "use server";
     await switchUserActiveStatus(id);
-    revalidatePath(window.location.pathname);
+    revalidatePath("/admin");
   }
 
   const users = await getUsers();

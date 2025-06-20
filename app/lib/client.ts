@@ -20,4 +20,6 @@ if (process.env.NODE_ENV !== "production") {
 
 const db = drizzle(pool, { logger: true });
 
+console.log(process.env.DATABASE_URL);
+
 export default db;

@@ -10,7 +10,7 @@ export default async function About() {
   async function handleSwitch(id: number) {
     "use server";
     await switchUserActiveStatus(id);
-    revalidatePath(window.location.pathname);
+    revalidatePath("/about");
   }
 
   const managers: (typeof users.$inferSelect)[] = await getManagers();

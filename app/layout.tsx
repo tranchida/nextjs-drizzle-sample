@@ -36,7 +36,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <div className="flex items-center">
                   <Link href="/">
                     <div className="flex items-center space-x-2">
-                      <Image src="/next.svg" alt="logo" className="h-30 w-30" />
+                      <Image src="/next.svg" width={100} height={100} alt="logo"/>
                       <span className="text-white text-3xl font-bold">Sample</span>
                     </div>
                   </Link>
