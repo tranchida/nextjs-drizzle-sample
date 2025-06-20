@@ -7,10 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postinstall": "pnpm drizzle-kit migrate && pnpm db:seed",
+    "postinstall": "drizzle-kit migrate",
     "db:seed": "tsx drizzle/seed.ts"
   },
   "dependencies": {
+    "@neondatabase/serverless": "^1.0.1",
     "dotenv": "^16.5.0",
     "drizzle-orm": "^0.44.2",
     "lucide-react": "^0.514.0",
