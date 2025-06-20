@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@neondatabase/serverless':
-        specifier: ^1.0.1
-        version: 1.0.1
       dotenv:
         specifier: ^16.5.0
         version: 16.5.0
@@ -27,29 +24,29 @@ importers:
         specifier: ^0.4.6
         version: 0.4.6(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       pg:
-        specifier: ^8.16.0
+        specifier: ^8.16.2
         version: 8.16.2
       react:
-        specifier: ^19.0.0
+        specifier: ^19.1.0
         version: 19.1.0
       react-dom:
-        specifier: ^19.0.0
+        specifier: ^19.1.0
         version: 19.1.0(react@19.1.0)
     devDependencies:
       '@tailwindcss/postcss':
-        specifier: ^4
+        specifier: ^4.1.10
         version: 4.1.10
       '@types/node':
-        specifier: ^20
+        specifier: ^20.19.1
         version: 20.19.1
       '@types/pg':
         specifier: ^8.15.4
         version: 8.15.4
       '@types/react':
-        specifier: ^19
+        specifier: ^19.1.8
         version: 19.1.8
       '@types/react-dom':
-        specifier: ^19
+        specifier: ^19.1.6
         version: 19.1.6(@types/react@19.1.8)
       drizzle-kit:
         specifier: ^0.31.1
@@ -61,13 +58,13 @@ importers:
         specifier: 15.3.4
         version: 15.3.4(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3)
       tailwindcss:
-        specifier: ^4
+        specifier: ^4.1.10
         version: 4.1.10
       tsx:
         specifier: ^4.20.3
         version: 4.20.3
       typescript:
-        specifier: ^5
+        specifier: ^5.8.3
         version: 5.8.3
 
 packages:
@@ -2694,6 +2691,7 @@ snapshots:
     dependencies:
       '@types/node': 22.15.32
       '@types/pg': 8.15.4
+    optional: true
 
   '@next/env@15.3.3': {}
 
@@ -2839,6 +2837,7 @@ snapshots:
   '@types/node@22.15.32':
     dependencies:
       undici-types: 6.21.0
+    optional: true
 
   '@types/pg@8.15.4':
     dependencies:
